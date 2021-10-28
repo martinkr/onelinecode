@@ -23,6 +23,7 @@ services:
             - "./package.json:/home/node/package.json"
             - "./.eslintrc.js:/home/node/.eslintrc.js:ro"
             - "./.eslintignore:/home/node/.eslintignore:ro"
+            - "./.npmrc:/home/node/.npmrc:ro"
             - "./rollup.config.js:/home/node/rollup.config.js:ro"
             - "./yarn.lock:/home/node/yarn.lock"
         depends_on:
