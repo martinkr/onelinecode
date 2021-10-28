@@ -1,5 +1,5 @@
 {
-  "name": "onelinecode",
+  "name": "@onelinecode/onelinecode",
   "version": "1.5.2",
   "description": "Awesome javascript in one line of code",
   "main": "./dist/index.js",
@@ -14,7 +14,7 @@
     "test": "ava",
     "coverage": "c8 ava"
   },
-  "author": "Martin Krause<infomail@mkrause.info>",
+  "author": "Martin Krause <infomail@mkrause.info>",
   "license": "MIT",
   "ava": {
     "require": [
@@ -31,5 +31,20 @@
     "rollup-plugin-banner": "^0.2.1",
     "rollup-plugin-eslint": "^7.0.0",
     "rollup-plugin-terser": "^7.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinkr/onelinecode.git"
+  },
+  "keywords": [
+    "onelineofcode",
+    "javascript",
+    "codequality",
+    "utilities",
+    "library"
+  ],
+  "bugs": {
+    "url": "https://github.com/martinkr/onelinecode/issues"
+  },
+  "homepage": "https://github.com/martinkr/onelinecode#readme"
 }
