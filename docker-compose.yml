@@ -1,0 +1,68 @@
+version: "3.0"
+services:
+
+    # assumption: this just shares the node modules and exits
+    node-modules:
+        image: onelinecode-node-modules:latest
+        volumes:
+            # create a named volume "node_modules"
+            - "shared-node-modules:/home/node/node_modules/"
+        command:
+            "tail -f /dev/null"
+
+    # shell
+    node-shell:
+        image: onelinecode-node-shell:latest
+        volumes:
+            # get node_modules from shared volume
+            - "shared-node-modules:/home/node/node_modules/"
+            - "./src:/home/node/src"
+            - "./dist:/home/node/dist"
+            - "./test:/home/node/test"
+            - "./coverage:/home/node/coverage"
+            - "./package.json:/home/node/package.json"
+            - "./.eslintrc.js:/home/node/.eslintrc.js:ro"
+            - "./.eslintignore:/home/node/.eslintignore:ro"
+            - "./rollup.config.js:/home/node/rollup.config.js:ro"
+            - "./yarn.lock:/home/node/yarn.lock"
+        depends_on:
+            - node-modules
+        command:
+            "tail -f /dev/null"
+
+    # container for eslint watcher
+    # $ docker-compose logs -f -t node-eslint-watch
+    # node-eslint-watch:
+    #     image: onelinecode-node-shell:latest
+    #     volumes:
+    #         # get node_modules from shared volume
+    #         - "shared-node-modules:/home/node/node_modules/:ro"
+    #         - "./src:/home/node/src:ro"
+    #         - "./.eslintrc.js:/home/node/.eslintrc.js:ro"
+    #         - "./.eslintignore:/home/node/.eslintignore:ro"
+    #         - "./package.json:/home/node/package.json:ro"
+    #     depends_on:
+    #         - node-modules
+    #         - node-shell
+    #     command:
+    #         "yarn run eslint-watch"
+
+    # container for mocha watcher
+    # $ docker-compose logs -f -t node-mocha-watch
+    # node-mocha-watch:
+    #     image: onelinecode-node-shell:latest
+    #     volumes:
+    #         # get node_modules from shared volume
+    #         - "shared-node-modules:/home/node/node_modules/:ro"
+    #         - "./src:/home/node/src:ro"
+    #         - "./test:/home/node/test:ro"
+    #         - "./package.json:/home/node/package.json:ro"
+    #     depends_on:
+    #         - node-modules
+    #         - node-shell
+    #     command:
+    #         "yarn run mocha-watch"
+
+
+volumes:
+    shared-node-modules:
