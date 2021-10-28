@@ -1,6 +1,6 @@
 {
   "name": "onelinecode",
-  "version": "1.5.0",
+  "version": "1.5.2",
   "description": "Awesome javascript in one line of code",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
