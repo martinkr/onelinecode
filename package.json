@@ -1,6 +1,6 @@
 {
   "name": "onelinecode",
-  "version": "1.0.5",
+  "version": "1.5.0",
   "description": "Awesome javascript in one line of code",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
@@ -25,6 +25,7 @@
     "ava": "^3.15.0",
     "c8": "^7.10.0",
     "esm": "^3.2.25",
+    "husky": "^7.0.4",
     "rollup": "^2.58.3",
     "rollup-plugin-analyzer": "^4.0.0",
     "rollup-plugin-banner": "^0.2.1",
