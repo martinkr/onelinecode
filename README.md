@@ -19,6 +19,10 @@ All functions are written in `ESNext` `esmodules` (`./src`)  and available as
 
 #### `isEmpty`
 Returns a boolean false if the array is not empty or a boolean true if the array is empty.
+
+#### `biggestNumber`
+Returns the biggest numerical item of the array.
+
 #### `lowestNumber`
 Returns the lowest numerical item of the array.
 #### `removeDuplicates`
@@ -30,16 +34,16 @@ Returns an object where the keys are the array entries and the values the number
 
 ## Installation
 ``` 
-$ npm install @oneliner
+$ npm install @onelinecode
 ```
 
 ```
-$ yarn add @oneliner
+$ yarn add @onelinecode
 ```
 ## Usage
 For example, you want to `shallowClone` an `array`:
 ```JavaScript
-import { shallowClone } from '@oneliner/array';
+import { shallowClone } from '@onelinecode/onelinecode/array';
 let array = [1];
 let arrayClone = shallowClone(array);
 ```
@@ -50,7 +54,7 @@ The library has `100% code coverage` with `ava` and passes the build on (travis-
 
 ## Contribution
 
-If you are interested in discussion a specific function, please see the corresonding article from (the series on dev.to)[https://dev.to/martinkr/series/15146].
+If you are interested in discussion a specific function, please see the corresponding article from (the series on dev.to)[https://dev.to/martinkr/series/15146].
 
 
 Please don't hesitate to comment, give feedback. I appreciate every input or comment. We can and should learn from each others opinion and knowledge. Please stick to a respectful style of discussion and read the (code of conduct)[]  like the articles or star the repository.
