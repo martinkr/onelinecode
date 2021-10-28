@@ -1,4 +1,4 @@
-odule.exports = {
+module.exports = {
     branches: [
         'main',
         {
