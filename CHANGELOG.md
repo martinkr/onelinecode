@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/martinkr/onelinecode/compare/v1.0.0...v1.0.1) (2021-10-28)
+
+
+### Bug Fixes
+
+* **chore:** setup workflow ([8693487](https://github.com/martinkr/onelinecode/commit/8693487eb1b382d79ff9fc061f6f476ab40b3bb8))
+
 # 1.0.0 (2021-10-28)
 
 
