@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/martinkr/onelinecode/compare/v1.6.0...v1.6.1) (2021-10-29)
+
+
+### Bug Fixes
+
+* **documentation:** modified install command ([a2f7346](https://github.com/martinkr/onelinecode/commit/a2f7346cbc826d9c5ef043e8969851c6aaac3a0c))
+
 # [1.6.0](https://github.com/martinkr/onelinecode/compare/v1.5.5...v1.6.0) (2021-10-29)
  
 ### Features
@@ -29,4 +36,3 @@
 ### Features
 
 * **Array/occurrenceMap:** Returns an object where the keys are the array entries and the values the number of their occurrences.
-
