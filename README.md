@@ -20,9 +20,8 @@ All functions are written in `ESNext` `esmodules` (`./src`)  and available as
 #### `isEmpty`
 Returns a boolean false if the array is not empty or a boolean true if the array is empty.
 
-#### `biggestNumber`
-Returns the biggest numerical item of the array.
-
+#### `highestNumber`
+Returns the highest coerced numerical numerical item of the array.
 #### `lowestNumber`
 Returns the lowest numerical item of the array.
 #### `removeDuplicates`
