@@ -27,6 +27,8 @@ Returns the lowest numerical item of the array.
 #### `removeDuplicates`
 Returns a copy of the array.
 Removes duplicate entries, keep in mind that it works only for entries with primitive values (string, number, bigint, boolean, undefined, symbol, and null). Preserves the order of the entries.
+#### `shallowClone``
+Creates a shallow-copied clone of the provided array. Since it's a shallow copy, nested objects or arrays will be copied by reference, not duplicated.
 
 #### `occurrenceMap`
 Returns an object where the keys are the array entries and the values the number of their occurrences.

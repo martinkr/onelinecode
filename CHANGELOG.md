@@ -1,42 +1,32 @@
 # [1.6.0](https://github.com/martinkr/onelinecode/compare/v1.5.5...v1.6.0) (2021-10-29)
+ 
+### Features
 
+* **Array/highestNumber:** Returns the highest coerced numerical numerical item of the array.r ([f5f9ffb](https://github.com/martinkr/onelinecode/commit/f5f9ffb04ce3b24b232aa927bd439f66b8f00293))
+  
+# 1.5.0 (2021-10-27)
+### Features
+
+* **Array/lowestNumber:** Returns the lowest coerced numerical numerical item of the array. 
+  
+# 1.4.0 (2021-10-25)
 
 ### Features
 
-* **Array/highestNumber:** Array, highest number ([f5f9ffb](https://github.com/martinkr/onelinecode/commit/f5f9ffb04ce3b24b232aa927bd439f66b8f00293))
-* **Array/highestNumber:** Array, highest number - fix specs ([a54cb65](https://github.com/martinkr/onelinecode/commit/a54cb65acad079f1cd7948b72f846685480c8495))
+* **Array/removeDuplicates:** Returns a copy of the array. Removes duplicate entries.
+# 1.3.0 (2021-10-25)
+### Features
 
-## [1.0.1](https://github.com/martinkr/onelinecode/compare/v1.0.0...v1.0.1) (2021-10-28)
+* **Array/isEmpty:** Returns a boolean false if the array is not empty or a boolean true if the array is empty.
 
+# 1.2.0 (2021-10-24)
+ 
+### Features
 
-### Bug Fixes
+* **Array/shallowClone:** Creates a shallow-copied clone of the provided array. 
+# 1.1.0 (2021-10-24)
 
-* **chore:** setup workflow ([8693487](https://github.com/martinkr/onelinecode/commit/8693487eb1b382d79ff9fc061f6f476ab40b3bb8))
+### Features
 
-# 1.0.0 (2021-10-28)
+* **Array/occurrenceMap:** Returns an object where the keys are the array entries and the values the number of their occurrences.
 
-
-### Bug Fixes
-
-* **chore:** setup workflow ([ed6dd7b](https://github.com/martinkr/onelinecode/commit/ed6dd7b783c4b5f80ef839108e29dfcfb12becf6))
-* **chore:** setup workflow ([99db812](https://github.com/martinkr/onelinecode/commit/99db812919dfd3cf3a22c9656d4f55cf24fb53de))
-* **chore:** setup workflow ([9d22428](https://github.com/martinkr/onelinecode/commit/9d2242810d26b8cc1e7c4f7c48a7dd26213a805e))
-* **chore:** setup workflow ([e7cdbe3](https://github.com/martinkr/onelinecode/commit/e7cdbe39d8a3af07047edad8944121e5bdf12695))
-
-# Change Log
-
-## 1.5.0 (2021-10-27)
-###Features
-* Array: lowestNumber
-## 1.4.0 (2021-10-25)
-###Features
-* Array: removeDublicates
-## 1.3.0 (2021-10-25)
-###Features
-* Array: isEmpty
-## 1.2.0 (2021-10-24)
-###Features
-* Array: shallowClone
-## 1.1.0 (2021-10-24)
-###Features
-* Array: occurenceMap

@@ -21,6 +21,7 @@ services:
             - "./test:/home/node/test"
             - "./coverage:/home/node/coverage"
             - "./package.json:/home/node/package.json"
+            - "./.c8rc.js:/home/node/.c8rc.js:ro"
             - "./.eslintrc.js:/home/node/.eslintrc.js:ro"
             - "./.eslintignore:/home/node/.eslintignore:ro"
             - "./.npmrc:/home/node/.npmrc:ro"
@@ -57,6 +58,7 @@ services:
     #         - "shared-node-modules:/home/node/node_modules/:ro"
     #         - "./src:/home/node/src:ro"
     #         - "./test:/home/node/test:ro"
+    #         - "./.c8rc.js:/home/node/.c8rc.js:ro"
     #         - "./package.json:/home/node/package.json:ro"
     #     depends_on:
     #         - node-modules

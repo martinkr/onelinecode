@@ -1,6 +1,7 @@
 import { highestNumber } from '../../src/array';
 const test = require('ava');
 
+
 test('returns the biggest number of a collection of positive integers ', t => {
     let input = [1, 2, 3];
     let expectation = 3;
