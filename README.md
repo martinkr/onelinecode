@@ -35,11 +35,11 @@ Returns an object where the keys are the array entries and the values the number
 
 ## Installation
 ``` 
-$ npm install @onelinecode
+$ npm i @onelinecode/onelinecode
 ```
 
 ```
-$ yarn add @onelinecode
+$ yarn add @onelinecode/onelinecode
 ```
 ## Usage
 For example, you want to `shallowClone` an `array`:
