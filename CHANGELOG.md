@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/martinkr/onelinecode/compare/v1.5.5...v1.6.0) (2021-10-29)
+
+
+### Features
+
+* **Array/highestNumber:** Array, highest number ([f5f9ffb](https://github.com/martinkr/onelinecode/commit/f5f9ffb04ce3b24b232aa927bd439f66b8f00293))
+* **Array/highestNumber:** Array, highest number - fix specs ([a54cb65](https://github.com/martinkr/onelinecode/commit/a54cb65acad079f1cd7948b72f846685480c8495))
+
 ## [1.0.1](https://github.com/martinkr/onelinecode/compare/v1.0.0...v1.0.1) (2021-10-28)
 
 
