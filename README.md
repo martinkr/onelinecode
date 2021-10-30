@@ -14,24 +14,11 @@ All functions are written in `ESNext` `esmodules` (`./src`)  and available as
 -`commonjs` (`./dist/index.cjs.js`) 
 -`esm` (`./dist/index.esm.js`) 
 
-## Available function 
+## Available functions
+
 ### Array
+See [./doc/array.md](./doc/array.md)
 
-#### `isEmpty`
-Returns a boolean false if the array is not empty or a boolean true if the array is empty.
-
-#### `highestNumber`
-Returns the highest coerced numerical numerical item of the array.
-#### `lowestNumber`
-Returns the lowest numerical item of the array.
-#### `removeDuplicates`
-Returns a copy of the array.
-Removes duplicate entries, keep in mind that it works only for entries with primitive values (string, number, bigint, boolean, undefined, symbol, and null). Preserves the order of the entries.
-#### `shallowClone``
-Creates a shallow-copied clone of the provided array. Since it's a shallow copy, nested objects or arrays will be copied by reference, not duplicated.
-
-#### `occurrenceMap`
-Returns an object where the keys are the array entries and the values the number of their occurrences.
 
 ## Installation
 ``` 
@@ -51,14 +38,14 @@ let arrayClone = shallowClone(array);
 
 
 ## Testing
-The library has `100% code coverage` with `ava` and passes the build on (travis-ci.com)]|
+The library has `100% code coverage` with `ava` and passes the build on [Build status from travis-ci](https://app.travis-ci.com/martinkr/onelinecode.svg?branch=main).
 
 ## Contribution
 
-If you are interested in discussion a specific function, please see the corresponding article from (the series on dev.to)[https://dev.to/martinkr/series/15146].
+If you are interested in discussion a specific function, please see the corresponding article from [the series on dev.to](https://dev.to/martinkr/series/15146).
 
 
-Please don't hesitate to comment, give feedback. I appreciate every input or comment. We can and should learn from each others opinion and knowledge. Please stick to a respectful style of discussion and read the (code of conduct)[]  like the articles or star the repository.
+Please don't hesitate to comment, give feedback. I appreciate every input or comment. We can and should learn from each others opinion and knowledge. Please stick to a respectful style of discussion and read the [code of conduct](CODE_OF_CONDUCT.md) like the articles or star the repository.
 
 
 
