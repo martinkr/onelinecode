@@ -24,3 +24,11 @@ test('exports a function "(arr.)lowestNumber"', t => {
 test('exports a function "(arr.)highestNumber"', t => {
     t.true(typeof (arr.highestNumber) === 'function')
 });
+
+test('exports a function "(arr.)closestNumber"', t => {
+    t.true(typeof (arr.closestNumber) === 'function')
+});
+
+test('exports a function "(arr.)indexOfLowestNumber"', t => {
+    t.true(typeof (arr.indexOfLowestNumber) === 'function')
+});

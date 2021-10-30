@@ -5,9 +5,11 @@ Exported as `arr` from `./array/index'
 ### `closestNumber`
 Returns the numerical item closest to the given number.
 
-
 ### `highestNumber`
 Returns the highest coerced numerical numerical item of the array.
+### `indexOfLowestNumber``
+Returns the index of the lowest numerical item of the array.
+
 ### `isEmpty`
 Returns a boolean false if the array is not empty or a boolean true if the array is empty.
 ### `lowestNumber`
