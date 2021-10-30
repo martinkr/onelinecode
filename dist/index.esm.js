@@ -1,2 +1,2 @@
 // ! onelinecode vv1.5.5
-var e=Object.freeze({__proto__:null,isEmpty:({length:e})=>0===e,removeDuplicates:e=>[...new Set(e)],occurrenceMap:e=>e.reduce(((e,r)=>(e[r]=(e[r]||0)+1,e)),{}),shallowClone:e=>e.slice(0),lowestNumber:e=>Math.min(...e),highestNumber:e=>Math.max(...e)});export{e as Array};
+const e=({length:e})=>0===e,s=e=>[...new Set(e)],a=e=>e.reduce(((e,s)=>(e[s]=(e[s]||0)+1,e)),{}),t=e=>e.slice(0),c=e=>Math.min(...e),l=e=>Math.max(...e);export{l as highestNumber,e as isEmpty,c as lowestNumber,a as occurrenceMap,s as removeDuplicates,t as shallowClone};

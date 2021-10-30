@@ -1,1 +1,1 @@
-export * as Array from './array/index';
+export * as array from './array/index';
