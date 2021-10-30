@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/martinkr/onelinecode/compare/v1.6.1...v1.7.0) (2021-10-30)
+
+
+### Features
+
+* **Array/closestNumber:** Returns the numerical item closest to the given number. ([ae8a6aa](https://github.com/martinkr/onelinecode/commit/ae8a6aa2fc2414ced071012323a7337696724cbb))
+
 ## [1.6.1](https://github.com/martinkr/onelinecode/compare/v1.6.0...v1.6.1) (2021-10-29)
 
 
