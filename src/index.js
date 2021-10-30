@@ -1,1 +1,2 @@
-export * as array from './array/index';
+import * as arr from './array/index';
+export { arr };
