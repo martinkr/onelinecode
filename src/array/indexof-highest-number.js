@@ -1,5 +1,5 @@
 /**
- * Returns the first index of the highest numerical item of the array.
+ * Returns the index of the first occurrence of the highest numerical item of the array.
  * @param {Array} arr 
  * @returns {Number}
  */
