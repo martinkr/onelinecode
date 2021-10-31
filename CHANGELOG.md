@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/martinkr/onelinecode/compare/v1.7.0...v1.8.0) (2021-10-30)
+
+
+### Features
+
+* **Array/indexOfLowestNumber:** Returns the index of the lowest numerical item of the array. ([9b4ce66](https://github.com/martinkr/onelinecode/commit/9b4ce665af1cf3d8cb4eb53bc242cfa54028d0be))
+
 # [1.7.0](https://github.com/martinkr/onelinecode/compare/v1.6.1...v1.7.0) (2021-10-30)
 
 
