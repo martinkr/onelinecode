@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/martinkr/onelinecode/compare/v1.9.0...v1.10.0) (2021-11-01)
+
+
+### Features
+
+* **Array/splitInHalf:** split an Array in half ([79c5a70](https://github.com/martinkr/onelinecode/commit/79c5a70f1918facdb79e02321e7ce1d19aa92881))
+
 # [1.9.0](https://github.com/martinkr/onelinecode/compare/v1.8.0...v1.9.0) (2021-10-31)
 
 
