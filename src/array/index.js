@@ -7,3 +7,4 @@ export { default as highestNumber } from './highest-number';
 export { default as closestNumber } from './closest-number';
 export { default as indexOfLowestNumber } from './indexof-lowest-number';
 export { default as indexOfHighestNumber } from './indexof-highest-number';
+export { default as splitInHalf } from './split-half.js';
