@@ -1,3 +1,16 @@
+# [1.9.0](https://github.com/martinkr/onelinecode/compare/v1.8.0...v1.9.0) (2021-10-31)
+
+
+### Bug Fixes
+
+* **Array/indexOfLowestNumber:** performance optimization. ([fd42777](https://github.com/martinkr/onelinecode/commit/fd42777ebc42db1d1d6556bdfb25b718e235c8bb))
+* **Array/indexOfLowestNumber:** performance optimization. ([4b3765b](https://github.com/martinkr/onelinecode/commit/4b3765b8d93ab16b74f3edeb8d4efdd05bf4bfef))
+
+
+### Features
+
+* **Array/indexOfHighestNumber:** Returns the index of the highest numerical item of the array. ([9bb569b](https://github.com/martinkr/onelinecode/commit/9bb569b57c4f85bc04584081a4f0b3181b08cfa6))
+
 # [1.8.0](https://github.com/martinkr/onelinecode/compare/v1.7.0...v1.8.0) (2021-10-30)
 
 
