@@ -22,8 +22,12 @@ Returns an object where the keys are the array entries and the values the number
 ### `removeDuplicates`
 Returns a copy of the array.
 Removes duplicate entries, keep in mind that it works only for entries with primitive values (string, number, bigint, boolean, undefined, symbol, and null). Preserves the order of the entries.
-### `shallowClone``
+### `shallowClone`
 Creates a shallow-copied clone of the provided array. Since it's a shallow copy, nested objects or arrays will be copied by reference, not duplicated.
+ 
+### `splitInHalf`
+Returns an new array where the first entry is the "first" and the second entry is the "second" half or the original array.
+
  
 
 ## License
