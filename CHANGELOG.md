@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/martinkr/onelinecode/compare/v1.10.1...v1.10.2) (2021-11-02)
+
+
+### Bug Fixes
+
+* **Array/splitInHalf:** performance ([f46bee1](https://github.com/martinkr/onelinecode/commit/f46bee1c6c8a272dffd63ef080d2b5aff589c16d))
+
 ## [1.10.1](https://github.com/martinkr/onelinecode/compare/v1.10.0...v1.10.1) (2021-11-01)
 
 
