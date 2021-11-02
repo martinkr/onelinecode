@@ -3,6 +3,6 @@
  * @param {Array} arr 
  * @returns {String}
  */
-const fn = arr => arr => Math.max(...arr.map((el) => el.length));
+const fn = arr => arr.reduce((prev, curr) => prev.length > curr.length ? prev : curr);
 
 export default fn;

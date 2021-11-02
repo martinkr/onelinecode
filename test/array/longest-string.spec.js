@@ -5,7 +5,7 @@ const test = require('ava');
 test('returns the only item if the array has only one item', t => {
     let input = ['foo'];
     let expectation = 'foo';
-    t.equals(longestString(input), expectation);
+    t.is(longestString(input), expectation);
 });
 
 test('returns the longest string entry from the array', t => {
