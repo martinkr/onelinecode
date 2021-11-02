@@ -3,6 +3,6 @@
  * @param {Array} arr 
  * @returns {Array}
  */
-const fn = arr => [arr, arr.splice(~~((arr.length + 1) / 2))];
+const fn = arr => [arr.slice(0, Math.ceil(arr.length / 2)), arr.slice(Math.ceil(arr.length / 2))];
 
 export default fn;
