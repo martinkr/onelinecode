@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/martinkr/onelinecode/compare/v1.10.2...v1.10.3) (2021-11-02)
+
+
+### Bug Fixes
+
+* **Array/lontestString:** fix function, fix  test ([4874047](https://github.com/martinkr/onelinecode/commit/487404722d9cf2b19c99a1f4c7dcc635f18887e2))
+
 ## [1.10.2](https://github.com/martinkr/onelinecode/compare/v1.10.1...v1.10.2) (2021-11-02)
 
 
