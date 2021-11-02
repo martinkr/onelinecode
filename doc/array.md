@@ -14,6 +14,8 @@ Returns the index of the first occurrence of the lowest numerical item of the ar
 
 ### `isEmpty`
 Returns a boolean false if the array is not empty or a boolean true if the array is empty.
+### `longestString`
+Returns the longest string entry of the array.
 ### `lowestNumber`
 Returns the lowest numerical item of the array.
 
