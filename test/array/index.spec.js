@@ -39,3 +39,9 @@ test('exports a function "(Array.)indexOfHighestNumber"', t => {
 test('exports a function "(Array.)splitInHalf"', t => {
     t.true(typeof (Array.splitInHalf) === 'function')
 });
+test('exports a function "(Array.)longestString"', t => {
+    t.true(typeof (Array.longestString) === 'function')
+});
+test('exports a function "(Array.)shortestString"', t => {
+    t.true(typeof (Array.splitInHalf) === 'function')
+});

@@ -27,6 +27,9 @@ Removes duplicate entries, keep in mind that it works only for entries with prim
 ### `shallowClone`
 Creates a shallow-copied clone of the provided array. Since it's a shallow copy, nested objects or arrays will be copied by reference, not duplicated.
  
+### `shortestString`
+Returns the shortest string entry of the array.
+
 ### `splitInHalf`
 Returns an new array where the first entry is the "first" and the second entry is the "second" half or the original array.
 
