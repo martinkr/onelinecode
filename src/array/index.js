@@ -10,3 +10,4 @@ export { default as indexOfHighestNumber } from './indexof-highest-number';
 export { default as splitInHalf } from './split-half.js';
 export { default as longestString } from './longest-string.js';
 export { default as shortestString } from './shortest-string.js';
+export { default as shortestStringLength } from './shortest-string-length.js';

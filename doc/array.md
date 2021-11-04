@@ -29,6 +29,9 @@ Creates a shallow-copied clone of the provided array. Since it's a shallow copy,
  
 ### `shortestString`
 Returns the shortest string entry of the array.
+ 
+### `shortestStringLength`
+Returns the length of the longest string entry of an Array of strings.
 
 ### `splitInHalf`
 Returns an new array where the first entry is the "first" and the second entry is the "second" half or the original array.

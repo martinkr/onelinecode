@@ -42,6 +42,11 @@ test('exports a function "(Array.)splitInHalf"', t => {
 test('exports a function "(Array.)longestString"', t => {
     t.true(typeof (Array.longestString) === 'function')
 });
+
 test('exports a function "(Array.)shortestString"', t => {
-    t.true(typeof (Array.splitInHalf) === 'function')
+    t.true(typeof (Array.shortestString) === 'function')
+});
+
+test('exports a function "(Array.)shortestStringLength"', t => {
+    t.true(typeof (Array.shortestStringLength) === 'function')
 });
