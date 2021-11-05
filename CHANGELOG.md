@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/martinkr/onelinecode/compare/v1.10.3...v1.11.0) (2021-11-05)
+
+
+### Bug Fixes
+
+* **Array/ShortestStringLength:** performance ([af954f7](https://github.com/martinkr/onelinecode/commit/af954f7d4553844d13230447b624799c7268455f))
+
+
+### Features
+
+* **Array/shortestStringLength:** Returns the length of the shortest string entry of an Array of strings. ([2a41658](https://github.com/martinkr/onelinecode/commit/2a41658b727f9022d7815611bfe64d5fc43d53bf))
+
 ## [1.10.3](https://github.com/martinkr/onelinecode/compare/v1.10.2...v1.10.3) (2021-11-02)
 
 
