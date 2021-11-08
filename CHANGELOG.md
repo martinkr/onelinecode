@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/martinkr/onelinecode/compare/v1.11.0...v1.12.0) (2021-11-08)
+
+
+### Features
+
+* **array/longest-string-length:** Returns the length of the longest string entry of an Array of strings. ([b0a1973](https://github.com/martinkr/onelinecode/commit/b0a1973c461ad3630a053ff2c402a3d6ac64400a))
+
 # [1.11.0](https://github.com/martinkr/onelinecode/compare/v1.10.3...v1.11.0) (2021-11-05)
 
 
