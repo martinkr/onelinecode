@@ -1,5 +1,5 @@
 /**
- * Returns the length of the longest string entry of an Array of strings.
+ * Returns the length of the shortest string entry of an Array of strings.
  * @param {Array} arr 
  * @param {Number} arr 
  * @returns {Number}
