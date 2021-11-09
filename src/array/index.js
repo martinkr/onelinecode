@@ -12,3 +12,4 @@ export { default as longestString } from './longest-string.js';
 export { default as shortestString } from './shortest-string.js';
 export { default as shortestStringLength } from './shortest-string-length.js';
 export { default as longestStringLength } from './longest-string-length.js';
+export { default as oddItem } from './odd-item.js';
