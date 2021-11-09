@@ -5,7 +5,7 @@ const test = require('ava');
 test('returns en empty array it the array has only one item', t => {
     let input = ['foo'];
     let expectation = [];
-    t.is(oddItem(input), expectation);
+    t.deepEqual(oddItem(input), expectation);
 });
 
 test('returns every second item of a string with an even number of items', t => {
