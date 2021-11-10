@@ -56,6 +56,10 @@ test('exports a function "(arr.)longestStringLength"', t => {
     t.true(typeof (arr.longestStringLength) === 'function')
 });
 
-test('exports a function "(arr.)oddItem"', t => {
-    t.true(typeof (arr.oddItem) === 'function')
+test('exports a function "(arr.)oddItems"', t => {
+    t.true(typeof (arr.oddItems) === 'function')
+});
+
+test('exports a function "(arr.)evenItems"', t => {
+    t.true(typeof (arr.evenItems) === 'function')
 });

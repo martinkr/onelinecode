@@ -5,6 +5,9 @@ Exported as `arr` from `./array/index'
 ### `closestNumber`
 Returns the numerical item closest to the given number.
 
+### `evenItems``
+Returns an array which contains every even item of the original array.
+
 ### `highestNumber`
 Returns the highest coerced numerical numerical item of the array.
 ### `indexOfHighestNumber``
@@ -18,6 +21,9 @@ Returns a boolean false if the array is not empty or a boolean true if the array
 Returns the longest string entry of the array.
 ### `lowestNumber`
 Returns the lowest numerical item of the array.
+
+### `oddItems``
+Returns an array which contains every odd (second) item of the original array.
 
 ### `occurrenceMap`
 Returns an object where the keys are the array entries and the values the number of their occurrences.
