@@ -3,6 +3,7 @@
  * @param {Array} arr 
  * @returns {Array}
  */
-const fn = arr => arr.filter((arr, index) => index % 2 === 1 - 1);
+const fn = (arr, out = [], i) => { for (i = 0; i < arr.length; i = i + 2) out.push(arr[i]); return out; };
+
 
 export default fn;

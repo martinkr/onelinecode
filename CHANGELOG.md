@@ -1,3 +1,15 @@
+# [1.13.0](https://github.com/martinkr/onelinecode/compare/v1.12.0...v1.13.0) (2021-11-09)
+
+
+### Bug Fixes
+
+* **Array/oddItem:** fix spec ([70df948](https://github.com/martinkr/onelinecode/commit/70df948615c9ec7384fdfea2f8925f71aa3dfccc))
+
+
+### Features
+
+* **Array/oddItem:** Returns an array which contains every odd (second) item of the original array. ([2ec177d](https://github.com/martinkr/onelinecode/commit/2ec177dbc7048aab4d5a95c438e50eafafbff176))
+
 # [1.12.0](https://github.com/martinkr/onelinecode/compare/v1.11.0...v1.12.0) (2021-11-08)
 
 
