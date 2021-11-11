@@ -21,7 +21,8 @@ Returns a boolean false if the array is not empty or a boolean true if the array
 Returns the longest string entry of the array.
 ### `lowestNumber`
 Returns the lowest numerical item of the array.
-
+### `mergeArrayUnique`
+Returns a new Array which contains all the values of the two Arrays. Ensures that the new array contains only unique values. 
 ### `oddItems``
 Returns an array which contains every odd (second) item of the original array.
 

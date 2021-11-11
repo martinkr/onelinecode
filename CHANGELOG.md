@@ -1,3 +1,15 @@
+# [1.14.0](https://github.com/martinkr/onelinecode/compare/v1.13.0...v1.14.0) (2021-11-10)
+
+
+### Bug Fixes
+
+* **Array/evenItem:** performance improvements ([5953fd3](https://github.com/martinkr/onelinecode/commit/5953fd3779c3b7a97ff8d7f9caf880cbefd1f814))
+
+
+### Features
+
+* **Array/evenItem:** Returns an array which contains every even  item of the original array. ([85bb14b](https://github.com/martinkr/onelinecode/commit/85bb14bccae3b4492b6e62a8cbfb7371da4ccc06))
+
 # [1.13.0](https://github.com/martinkr/onelinecode/compare/v1.12.0...v1.13.0) (2021-11-09)
 
 
