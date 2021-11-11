@@ -3,7 +3,7 @@
  * @param {Array} arr 
  * @returns {Array}
  */
-const fn = (arr, odds = [], i = 0) => { for (i = 0; i < arr.length; i++) (i & 1) && odds.push(arr[i]); return odds };
+const fn = arr => arr.filter((_, i) => i & 1 === 1);
 
 
 export default fn;
