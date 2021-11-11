@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/martinkr/onelinecode/compare/v1.14.0...v1.14.1) (2021-11-11)
+
+
+### Bug Fixes
+
+* **Array/evenItem, Array/oddItem:** performance improvements ([cc30384](https://github.com/martinkr/onelinecode/commit/cc30384478582fa1002b850bedcd53539bedd1a2))
+
 # [1.14.0](https://github.com/martinkr/onelinecode/compare/v1.13.0...v1.14.0) (2021-11-10)
 
 
