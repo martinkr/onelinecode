@@ -15,3 +15,4 @@ export { default as longestStringLength } from './longest-string-length.js';
 export { default as oddItems } from './odd-items.js';
 export { default as evenItems } from './even-items.js';
 export { default as mergeArrayUnique } from './merge-array-unique.js';
+export { default as mergeArray } from './merge-array.js';

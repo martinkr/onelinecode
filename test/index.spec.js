@@ -67,3 +67,7 @@ test('exports a function "(arr.)evenItems"', t => {
 test('exports a function "(arr.)mergeArrayUnique"', t => {
     t.true(typeof (arr.mergeArrayUnique) === 'function')
 });
+
+test('exports a function "(arr.)mergeArray"', t => {
+    t.true(typeof (arr.mergeArray) === 'function')
+});

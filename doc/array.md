@@ -23,6 +23,8 @@ Returns the longest string entry of the array.
 Returns the lowest numerical item of the array.
 ### `mergeArrayUnique`
 Returns a new Array which contains all the values of the two Arrays. Ensures that the new array contains only unique values. 
+### `mergeArray`
+Returns a new Array which contains all items of the two Arrays.
 ### `oddItems``
 Returns an array which contains every odd (second) item of the original array.
 
