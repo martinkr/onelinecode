@@ -1,3 +1,10 @@
+## [1.14.2](https://github.com/martinkr/onelinecode/compare/v1.14.1...v1.14.2) (2021-11-15)
+
+
+### Bug Fixes
+
+* **Array/mergeArray:** performance improvements ([88b5356](https://github.com/martinkr/onelinecode/commit/88b53567425cae4cfb2352128cf9882a89872c92))
+
 ## [1.14.1](https://github.com/martinkr/onelinecode/compare/v1.14.0...v1.14.1) (2021-11-11)
 
 
