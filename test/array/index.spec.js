@@ -70,3 +70,11 @@ test('exports a function "(Array.)mergeArrayUnique"', t => {
 test('exports a function "(Array.)mergeArray"', t => {
     t.true(typeof (Array.mergeArray) === 'function')
 });
+
+test('exports a function "(Array.)clean"', t => {
+    t.true(typeof (Array.clean) === 'function')
+});
+
+test('exports a function "(Array.)cleanFalsy"', t => {
+    t.true(typeof (Array.cleanFalsy) === 'function')
+});

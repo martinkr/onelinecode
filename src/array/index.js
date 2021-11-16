@@ -16,3 +16,5 @@ export { default as oddItems } from './odd-items.js';
 export { default as evenItems } from './even-items.js';
 export { default as mergeArrayUnique } from './merge-array-unique.js';
 export { default as mergeArray } from './merge-array.js';
+export { default as clean } from './clean.js';
+export { default as cleanFalsy } from './clean-falsy.js';

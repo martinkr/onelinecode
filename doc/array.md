@@ -2,6 +2,13 @@
   
 ## Array
 Exported as `arr` from `./array/index'
+
+### `clean`
+Returns an array without `empty strings`, `NaN`, `null`, `undefined` items.
+
+### `cleanFalsy`
+ * Returns an array without `empty strings`, `NaN`, `null`, `undefined`, false and 0 items.
+
 ### `closestNumber`
 Returns the numerical item closest to the given number.
 
