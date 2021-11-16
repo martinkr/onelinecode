@@ -4,6 +4,6 @@
  * @returns {Array}
  */
 
-const fn = arr => arr.filter(item => typeof (item) == 'boolean' || (typeof (item) === 'number' && isNaN(item) === false) ? true : !!item);
+const fn = arr => arr.filter(item => !!item || item === 0 || item === false);
 
 export default fn;
