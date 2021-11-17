@@ -4,6 +4,6 @@
  * @returns {Array}
  */
 
-const fn = arr => arr => arr.filter(i => i);
+const fn = arr => arr.filter(i => i);
 
 export default fn;
