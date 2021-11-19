@@ -18,3 +18,4 @@ export { default as mergeArrayUnique } from './merge-array-unique.js';
 export { default as mergeArray } from './merge-array.js';
 export { default as clean } from './clean.js';
 export { default as cleanFalsy } from './clean-falsy.js';
+export { default as sum } from './sum.js';

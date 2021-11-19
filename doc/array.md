@@ -3,6 +3,9 @@
 ## Array
 Exported as `arr` from `./array/index'
 
+### `average`
+Returns the average of the sum of all items in a numerical array. 
+Beware of JavaScripts Automatic Type Conversion if your `Array` contains something else than `Numbers`.
 ### `clean`
 Returns an array without `empty strings`, `NaN`, `null`, `undefined` items.
 
@@ -32,6 +35,11 @@ Returns the lowest numerical item of the array.
 Returns a new Array which contains all the values of the two Arrays. Ensures that the new array contains only unique values. 
 ### `mergeArray`
 Returns a new Array which contains all items of the two Arrays.
+
+### `sum`
+Returns the sum of all items in a numerical array. 
+Beware of JavaScripts Automatic Type Conversion if your `Array` contains something else than `Numbers`.
+
 ### `oddItems``
 Returns an array which contains every odd (second) item of the original array.
 

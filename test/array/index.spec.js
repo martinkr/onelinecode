@@ -78,3 +78,11 @@ test('exports a function "(Array.)clean"', t => {
 test('exports a function "(Array.)cleanFalsy"', t => {
     t.true(typeof (Array.cleanFalsy) === 'function')
 });
+
+test('exports a function "(Array.)sum"', t => {
+    t.true(typeof (arr.sum) === 'function')
+});
+
+test('exports a function "(Array.)average"', t => {
+    t.true(typeof (arr.average) === 'function')
+});
