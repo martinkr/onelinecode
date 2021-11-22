@@ -83,3 +83,15 @@ test('exports a function "(Array.)sum"', t => {
 test('exports a function "(Array.)average"', t => {
     t.true(typeof (arr.average) === 'function')
 });
+
+test('exports a function "(Array.)nthItems"', t => {
+    t.true(typeof (arr.nthItems) === 'function')
+});
+
+test('exports a function "(Array.)sortAsc"', t => {
+    t.true(typeof (arr.sortAsc) === 'function')
+});
+
+test('exports a function "(Array.)sortDesc"', t => {
+    t.true(typeof (arr.sortDesc) === 'function')
+});

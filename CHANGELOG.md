@@ -1,3 +1,11 @@
+# [1.15.0](https://github.com/martinkr/onelinecode/compare/v1.14.2...v1.15.0) (2021-11-17)
+
+
+### Features
+
+* **array/clean:** clean an array ([881dafa](https://github.com/martinkr/onelinecode/commit/881dafa2ebb8727974dcdcc15f4056222053306a))
+* **array/cleanFalsy:** clean an array from falsy values ([3f5518e](https://github.com/martinkr/onelinecode/commit/3f5518e62e9a50865325b4754218c47aacb8d4b0))
+
 ## [1.14.2](https://github.com/martinkr/onelinecode/compare/v1.14.1...v1.14.2) (2021-11-15)
 
 

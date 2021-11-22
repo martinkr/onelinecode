@@ -5,5 +5,4 @@
  */
 const fn = arr => arr.filter((_, index) => index % 2 === 0);
 
-
 export default fn;

@@ -19,3 +19,7 @@ export { default as mergeArray } from './merge-array.js';
 export { default as clean } from './clean.js';
 export { default as cleanFalsy } from './clean-falsy.js';
 export { default as sum } from './sum.js';
+export { default as average } from './average.js';
+export { default as nthItems } from './nth-items.js';
+export { default as sortAsc } from './sort-asc.js';
+export { default as sortDesc } from './sort-desc.js';
