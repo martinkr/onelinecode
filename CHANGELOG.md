@@ -1,3 +1,12 @@
+# [1.16.0](https://github.com/martinkr/onelinecode/compare/v1.15.0...v1.16.0) (2021-11-22)
+
+
+### Features
+
+* **array/average, array/sortAsc, array/sortDesc:** new features ([e9f4d76](https://github.com/martinkr/onelinecode/commit/e9f4d76dfba5d04fa26bab8c564248af620d4a59))
+* **array/average, array/sortAsc, array/sortDesc:** new features ([6e91400](https://github.com/martinkr/onelinecode/commit/6e91400de9977462c18f81383684d035cd542bc9))
+* **array/sum, array/average:** calculations ([a2cd22f](https://github.com/martinkr/onelinecode/commit/a2cd22fb3ac3fb770c01820bb4ce046cade3d522))
+
 # [1.15.0](https://github.com/martinkr/onelinecode/compare/v1.14.2...v1.15.0) (2021-11-17)
 
 
