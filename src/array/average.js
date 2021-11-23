@@ -5,6 +5,6 @@
  * @returns {Number}
  */
 
-const fn = arr => arr.reduce((a, b) => a + b, 0) / arr.length;
+const fn = arr => arr.reduce((a, b) => a + b) / arr.length;
 
 export default fn;
