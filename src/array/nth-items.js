@@ -4,6 +4,6 @@
  * @param {Number} pos, position to look for 
  * @returns {Array}
  */
-const fn = (arr, pos) => arr.filter((arr, index) => index % pos === pos - 1);
+const fn = (arr, pos) => Array.from({ length: ~~(arr.length / pos) }, (_, i) => arr[(i + 1) * pos - 1]);
 
 export default fn;
