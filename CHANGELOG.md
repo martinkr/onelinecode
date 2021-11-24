@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/martinkr/onelinecode/compare/v1.16.0...v1.17.0) (2021-11-23)
+
+
+### Features
+
+* **array/average:** performance ([74776c7](https://github.com/martinkr/onelinecode/commit/74776c76b2dccbd2438d4dca25e2e06fc5c67c47))
+
 # [1.16.0](https://github.com/martinkr/onelinecode/compare/v1.15.0...v1.16.0) (2021-11-22)
 
 
