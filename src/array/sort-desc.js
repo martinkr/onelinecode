@@ -5,6 +5,6 @@
  * @returns {Array}
  */
 
-const fn = arr => [...arr].sort((a, b) => a - b).reverse();
+const fn = arr => [...arr].sort((a, b) => b - a);
 
 export default fn;
