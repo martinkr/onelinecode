@@ -23,3 +23,5 @@ export { default as average } from './average.js';
 export { default as nthItems } from './nth-items.js';
 export { default as sortAsc } from './sort-asc.js';
 export { default as sortDesc } from './sort-desc.js';
+export { default as shuffle } from './shuffle.js';
+export { default as createRange } from './create-range.js';

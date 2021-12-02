@@ -98,3 +98,11 @@ test('exports a function "(arr.)sortAsc"', t => {
 test('exports a function "(arr.)sortDesc"', t => {
     t.true(typeof (arr.sortDesc) === 'function')
 });
+
+test('exports a function "(arr.)shuffle"', t => {
+    t.true(typeof (arr.shuffle) === 'function')
+});
+
+test('exports a function "(arr.)createRange"', t => {
+    t.true(typeof (arr.createRange) === 'function')
+});

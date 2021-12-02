@@ -61,6 +61,11 @@ Returns a new Array which contains all items of the two Arrays.
 
 Returns a new array which contains every n-th item of the original array.
 
+### `shuffle``
+
+Returns a new array with shuffled items. 
+Be aware, that the shuffled items are not truly random because `Math.random` will return a pseudo-random number.  
+
 ### `sortAsc`
 Returns a new Array sorted by ascending order (Numbers). 
 Beware of JavaScripts Automatic Type Conversion if your `Array` contains something else than `Numbers`.
