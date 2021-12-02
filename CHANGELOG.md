@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/martinkr/onelinecode/compare/v1.18.0...v1.18.1) (2021-12-01)
+
+
+### Bug Fixes
+
+* **array/sortDesc:** performance ([1173fd2](https://github.com/martinkr/onelinecode/commit/1173fd281872e71159ce4835f6c0ce1df1919964))
+
 # [1.18.0](https://github.com/martinkr/onelinecode/compare/v1.17.0...v1.18.0) (2021-11-24)
 
 
