@@ -4,6 +4,6 @@
  * @param {Number} to last value
  * @returns {Array}
  */
-const fn = (from, to) => Array.from({ length: to - from + 1 }, (_, i) => from + i);
+const fn = (a, b, sign = Math.sign(b - a)) =>  Array(Math.abs(b - a + sign)).fill().map((_, i) => a + sign * i);
 
 export default fn;

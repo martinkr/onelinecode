@@ -1,2 +1,3 @@
 import * as arr from './array/index';
-export { arr };
+import * as str from './string/index';
+export { arr, str };

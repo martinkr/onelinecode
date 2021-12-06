@@ -1,5 +1,8 @@
 import { arr } from '../src';
+import { str } from '../src';
 const test = require('ava');
+
+/** ARRAY */
 
 test('exports a function "(arr.)occurrenceMap"', t => {
     t.true(typeof (arr.occurrenceMap) === 'function')
@@ -102,4 +105,11 @@ test('exports a function "(Array.)shuffle"', t => {
 
 test('exports a function "(Array.)createRange"', t => {
     t.true(typeof (arr.createRange) === 'function')
+});
+
+
+/** STRING */
+
+test('exports a function "(String.)countWords"', t => {
+    t.true(typeof (str.countWords) === 'function')
 });

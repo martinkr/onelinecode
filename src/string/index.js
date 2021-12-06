@@ -1,0 +1,1 @@
+export { default as countWords } from './count-words';

@@ -22,9 +22,9 @@ test('returns an array in the given range with negative numbers', t => {
   t.deepEqual( createRange(from,to) , expectation);
 });
 
-test('returns an array empty array if from is bigger than to', t => {
+test('returns an inversed array from is bigger than to', t => {
   let from = 3;
   let to = 1;
-  let expectation = [];
+  let expectation = [3,2,1];
   t.deepEqual( createRange(from,to) , expectation);
 });
