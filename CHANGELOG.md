@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/martinkr/onelinecode/compare/v1.18.1...v1.19.0) (2021-12-02)
+
+
+### Features
+
+* **array/rangeArray:** create a range array ([b2ed9e9](https://github.com/martinkr/onelinecode/commit/b2ed9e91369787bb9133da0c75aa592e2b48ddbd))
+
 ## [1.18.1](https://github.com/martinkr/onelinecode/compare/v1.18.0...v1.18.1) (2021-12-01)
 
 
