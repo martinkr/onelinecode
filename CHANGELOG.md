@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/martinkr/onelinecode/compare/v1.19.0...v1.20.0) (2021-12-06)
+
+
+### Features
+
+* **string/countWords:** BREAKING CHANGE for versioning but only because of introducing strings ([2598907](https://github.com/martinkr/onelinecode/commit/2598907d59af825beda7a93e6712cab90ed9145e))
+
 # [1.19.0](https://github.com/martinkr/onelinecode/compare/v1.18.1...v1.19.0) (2021-12-02)
 
 
