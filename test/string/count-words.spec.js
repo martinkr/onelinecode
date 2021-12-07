@@ -25,3 +25,13 @@ test('returns the amount of words in a string if the last chars are whitespaces'
   let input = "foo bar baz   ";
   t.is( countWords(input), 3);
 });
+
+test('returns the amount of words in a string if the there are regular punctation marks and whitespaces', t => {
+  let input = "~ …  ;,. ! ? [foo1] foo2 foo3-bar3 baz2  – — · / ( ) { } [ ] \" ' : ’ baz1";
+  t.is( countWords(input), 5);
+});
+
+test('returns the amount of words in a string if they are surounded by spaces', t => {
+  let input = "foo bar baz – — · / ( ) { } [ ] ~ … . , ; ! ? ' : ’ \" foobar [foo] ";
+  t.is( countWords(input), 5);
+});
