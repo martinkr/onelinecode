@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/martinkr/onelinecode/compare/v1.20.0...v1.20.1) (2021-12-07)
+
+
+### Bug Fixes
+
+* **string/countWords:** punctation chars ([62e1460](https://github.com/martinkr/onelinecode/commit/62e146040f1212367493fd4945ff307fc7e01308))
+
 # [1.20.0](https://github.com/martinkr/onelinecode/compare/v1.19.0...v1.20.0) (2021-12-06)
 
 
