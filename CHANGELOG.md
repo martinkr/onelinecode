@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/martinkr/onelinecode/compare/v1.20.1...v1.20.2) (2021-12-08)
+
+
+### Bug Fixes
+
+* **string/capitalise:** performance ([4fd3a59](https://github.com/martinkr/onelinecode/commit/4fd3a59f43d87fdc8d02ece7d1d03f6309c19269))
+
 ## [1.20.1](https://github.com/martinkr/onelinecode/compare/v1.20.0...v1.20.1) (2021-12-07)
 
 
