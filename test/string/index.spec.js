@@ -8,3 +8,11 @@ test('exports a function "(str.)countWords"', (t) => {
 test('exports a function "(str.)capitalise"', (t) => {
   t.true(typeof str.capitalise === "function");
 });
+
+test('exports a function "(str.)toCamelCase"', (t) => {
+  t.true(typeof str.toCamelCase === "function");
+});
+
+test('exports a function "(str.)toPascalCase"', (t) => {
+  t.true(typeof str.toPascalCase === "function");
+});

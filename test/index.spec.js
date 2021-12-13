@@ -116,3 +116,11 @@ test('exports a function "(String.)countWords"', (t) => {
 test('exports a function "(String.)capitalise"', (t) => {
   t.true(typeof str.capitalise === "function");
 });
+
+test('exports a function "(String.)toCamelCase"', (t) => {
+  t.true(typeof str.toCamelCase === "function");
+});
+
+test('exports a function "(String.)toPascalCase"', (t) => {
+  t.true(typeof str.toPascalCase === "function");
+});
