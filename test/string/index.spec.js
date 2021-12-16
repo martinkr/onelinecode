@@ -16,3 +16,11 @@ test('exports a function "(str.)toCamelCase"', (t) => {
 test('exports a function "(str.)toPascalCase"', (t) => {
   t.true(typeof str.toPascalCase === "function");
 });
+
+test('exports a function "(str.)toURLSlug"', (t) => {
+  t.true(typeof str.toURLSlug === "function");
+});
+
+test('exports a function "(str.)htmlSpecialChars"', (t) => {
+  t.true(typeof str.htmlSpecialChars === "function");
+});

@@ -124,3 +124,11 @@ test('exports a function "(String.)toCamelCase"', (t) => {
 test('exports a function "(String.)toPascalCase"', (t) => {
   t.true(typeof str.toPascalCase === "function");
 });
+
+test('exports a function "(String.)toURLSlug"', (t) => {
+  t.true(typeof str.toURLSlug === "function");
+});
+
+test('exports a function "(String.)htmlSpecialChars"', (t) => {
+  t.true(typeof str.htmlSpecialChars === "function");
+});
