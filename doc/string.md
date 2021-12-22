@@ -20,6 +20,10 @@ Returns a new string where all HTML special characters are converted to HTML ent
 
 Returns a new string in camel case. Uses space, dot, underscore, dash as delimiter.
 
+### `toLowerCase``
+
+Returns a new string in lower case. Uses spaces as delimiter.
+
 ### `toPascalCase`
 
 Returns a new string in pascal case. Uses space, dot, underscore, dash as delimiter.

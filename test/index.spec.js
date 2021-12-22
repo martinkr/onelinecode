@@ -132,3 +132,7 @@ test('exports a function "(String.)toURLSlug"', (t) => {
 test('exports a function "(String.)htmlSpecialChars"', (t) => {
   t.true(typeof str.htmlSpecialChars === "function");
 });
+
+test('exports a function "(String.)toLowerCase"', (t) => {
+  t.true(typeof str.toLowerCase === "function");
+});

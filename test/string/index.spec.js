@@ -24,3 +24,7 @@ test('exports a function "(str.)toURLSlug"', (t) => {
 test('exports a function "(str.)htmlSpecialChars"', (t) => {
   t.true(typeof str.htmlSpecialChars === "function");
 });
+
+test('exports a function "(str.)toLowerCase"', (t) => {
+  t.true(typeof str.toLowerCase === "function");
+});
