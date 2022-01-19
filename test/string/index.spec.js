@@ -41,3 +41,7 @@ test('exports a function "(str.)tabsToSpaces"', (t) => {
 test('exports a function "(str.)nlToBr"', (t) => {
   t.true(typeof str.nlToBr === "function");
 });
+});
+test('exports a function "(str.)truncateAfterWord"', (t) => {
+  t.true(typeof str.truncateAfterWord === "function");
+});

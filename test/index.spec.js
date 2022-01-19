@@ -149,3 +149,6 @@ test('exports a function "(String.)tabsToSpaces"', (t) => {
 test('exports a function "(String.)nlToBr"', (t) => {
   t.true(typeof str.nlToBr === "function");
 });
+test('exports a function "(String.)truncateAfterWord"', (t) => {
+  t.true(typeof str.truncateAfterWord === "function");
+});

@@ -9,3 +9,4 @@ export { default as countChar } from "./count-char";
 export { default as spacesToTabs } from "./spaces-to-tabs";
 export { default as tabsToSpaces } from "./tabs-to-spaces";
 export { default as nlToBr } from "./nl-to-br";
+export { default as truncateAfterWord } from "./truncate-after-word";
