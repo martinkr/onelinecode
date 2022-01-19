@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/martinkr/onelinecode/compare/v1.20.2...v1.21.0) (2022-01-19)
+
+
+### Features
+
+* **push new version:** new version ([da64205](https://github.com/martinkr/onelinecode/commit/da642053f8cd4f521ba98ed9b6afcce8805c6050))
+
 ## [1.20.2](https://github.com/martinkr/onelinecode/compare/v1.20.1...v1.20.2) (2021-12-08)
 
 
