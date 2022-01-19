@@ -136,3 +136,16 @@ test('exports a function "(String.)htmlSpecialChars"', (t) => {
 test('exports a function "(String.)toLowerCase"', (t) => {
   t.true(typeof str.toLowerCase === "function");
 });
+
+test('exports a function "(String.)countChar"', (t) => {
+  t.true(typeof str.countChar === "function");
+});
+test('exports a function "(String.)spacesToTabs"', (t) => {
+  t.true(typeof str.spacesToTabs === "function");
+});
+test('exports a function "(String.)tabsToSpaces"', (t) => {
+  t.true(typeof str.tabsToSpaces === "function");
+});
+test('exports a function "(String.)nlToBr"', (t) => {
+  t.true(typeof str.nlToBr === "function");
+});

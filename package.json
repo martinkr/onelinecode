@@ -46,5 +46,6 @@
   "bugs": {
     "url": "https://github.com/martinkr/onelinecode/issues"
   },
-  "homepage": "https://github.com/martinkr/onelinecode#readme"
+  "homepage": "https://github.com/martinkr/onelinecode#readme",
+  "dependencies": {}
 }

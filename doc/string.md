@@ -16,6 +16,18 @@ Returns the number of words in a given string.
 
 Returns a new string where all HTML special characters are converted to HTML entities.
 
+## `nlToBr`
+
+Returns the string with \r\n converted to <br/>
+
+## `spacesToTabs`
+
+Returns the string with spaces convertes to tabs.
+
+## `tabsToSpaces`
+
+Returns the string with tabs converted to spaces
+
 ### `toCamelCase`
 
 Returns a new string in camel case. Uses space, dot, underscore, dash as delimiter.
