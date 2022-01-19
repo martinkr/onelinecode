@@ -60,4 +60,4 @@ Leading and trailing "-" will be removes
 
 ## `truncateAfterWords`
 
-Returns the string truncated to the given amount of chars while preserving full words
+Returns the string truncated to the given amount of chars while preserving full words.
