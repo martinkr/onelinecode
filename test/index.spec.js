@@ -149,6 +149,15 @@ test('exports a function "(String.)tabsToSpaces"', (t) => {
 test('exports a function "(String.)nlToBr"', (t) => {
   t.true(typeof str.nlToBr === "function");
 });
+test('exports a function "(String.)multiToSingleSpace"', (t) => {
+  t.true(typeof str.multiToSingleSpace === "function");
+});
 test('exports a function "(String.)truncateAfterWord"', (t) => {
   t.true(typeof str.truncateAfterWord === "function");
+});
+test('exports a function "(String.)reverseString"', (t) => {
+  t.true(typeof str.reverseString === "function");
+});
+test('exports a function "(String.)reverseWords"', (t) => {
+  t.true(typeof str.reverseWords === "function");
 });
