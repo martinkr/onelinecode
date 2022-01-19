@@ -7,8 +7,8 @@ test("returns a string", (t) => {
 });
 
 test("returns the where \r\n is replace with <br />", (t) => {
-  let input = `foo 
-bar 
+  let input = `foo
+bar
 baz`;
   let expectation = "foo<br />bar<br />baz";
   t.is(nlToBr(input), expectation);
